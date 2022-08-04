@@ -1,1 +1,3 @@
-# catholic-works
+# Catholic Works
+
+# Works of Catholics
