@@ -10,6 +10,18 @@
     
     <button><a href="/index.html" style="color:#000000; text-decoration:none; font-family:Times New Roman">Home</a></button> <button><a href="/index.html" style="color:#000000; text-decoration:none; font-family:Times New Roman">About</a></button>
     
+    <line/>
+    
+    <h3 style="text-align left; font-family:Libre Baskerville">Verse of the day (RSV-CE)</h3>
+    <script src="https://www.biblegateway.com/votd/votd.write.callback.js"></script>
+    <script src="https://www.biblegateway.com/votd/get/?format=json&version=RSVCE&callback=BG.votdWriteCallback"></script>
+  
+    <!-- alternative for no javascript -->
+    
+    <noscript>
+      <iframe framespacing="0" frameborder="no" src="https://www.biblegateway.com/votd/get/?format=html&version=RSVCE">View Verse of the Day</iframe>
+    </noscript>
+  
   </body>
 
 </html>
